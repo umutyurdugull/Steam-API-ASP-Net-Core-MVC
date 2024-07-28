@@ -1,0 +1,16 @@
+﻿@* Views/Steam/FriendList.cshtml *@
+<h2>Friend List</h2>
+@if (Model?.FriendsList?.Friends != null)
+{
+    <ul>
+        @foreach (var friend in Model.FriendsList.Friends)
+        {
+            <li>Steam ID: @friend.SteamId, Relationship: @friend.Relationship, Friend Since: @friend.FriendSince</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No friends found.</p>
+}
+<a href="@Url.Action("Index", "Steam")">Back</a>

@@ -1,0 +1,29 @@
+﻿@* Views/Steam/Index.cshtml *@
+@using (Html.BeginForm("UserInfo", "Steam", FormMethod.Post))
+{
+    <div>
+        <label for="steamId">Steam ID:</label>
+        <input type="text" id="steamId" name="steamId" />
+        <button type="submit">Get User Info</button>
+    </div>
+}
+
+@using (Html.BeginForm("FriendList", "Steam", FormMethod.Post))
+{
+    <div>
+        <label for="steamId">Steam ID:</label>
+        <input type="text" id="steamId" name="steamId" />
+        <button type="submit">Get Friend List</button>
+    </div>
+}
+
+@using (Html.BeginForm("OwnedGames", "Steam", FormMethod.Post))
+{
+    <div>
+        <label for="steamId">Steam ID:</label>
+        <input type="text" id="steamId" name="steamId" />
+        <label for="gameId">Game ID:</label>
+        <input type="text" id="gameId" name="gameId" />
+        <button type="submit">Get Owned Games</button>
+    </div>
+}

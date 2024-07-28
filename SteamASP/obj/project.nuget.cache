@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5L4JLWg9aYpAl7fxDratd8UXE9K6+/+EKk8BK5IrKb04nrjSgYlGmYk080JToD7J3kujqs/03RsrX6cA+I3cXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Can\\Desktop\\Kod\\SteamASP\\SteamASP\\SteamASP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Can\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
